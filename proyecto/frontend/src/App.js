@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Data } from "./Data";
 import PieChart from "./components/PieChart";
 import BarChart from "./components/BarChart";
+import WebSocket from "./components/WebSocketExample"
 
 Chart.register(CategoryScale);
  
@@ -15,13 +16,13 @@ export default function App() {
         label: "Users Gained ",
         data: Data.map((data) => data.userGain),
         backgroundColor: [
-          "rgba(75,192,192,1)",
-          "&quot;#ecf0f1",
+          "#155C28",
+          "#154C5C",
           "#50AF95",
           "#f3ba2f",
           "#2a71d0"
         ],
-        borderColor: "black",
+        borderColor: "skyblue",
         borderWidth: 2
       }
     ]
@@ -29,8 +30,14 @@ export default function App() {
  
   return (
     <div className="App">
-      <PieChart chartData={chartData} />
-      <BarChart chartData={chartData} />
+      <div>
+        <PieChart chartData={chartData} />   
+      </div>
+      <div>
+        <br></br>
+        <br></br>
+        <WebSocket/>
+      </div>        
     </div>
   );
 }
