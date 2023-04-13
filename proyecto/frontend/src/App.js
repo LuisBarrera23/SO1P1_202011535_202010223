@@ -9,6 +9,8 @@ import WebSocket from "./components/WebSocketExample"
 import Tabla from "./components/tabla5votos";
 import Top3 from "./components/top3";
 import './App.css';
+import Footer from "./components/footer";
+
 
 
 Chart.register(CategoryScale);
@@ -84,6 +86,7 @@ const [chartDataBarras, setChartDataBarras] = useState({
       </div>
     </div> 
 
+    <Footer></Footer>
 
     </div>
   );

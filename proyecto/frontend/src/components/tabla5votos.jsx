@@ -1,6 +1,6 @@
 function Tabla() {
     return (
-      <div className="chart-container2" >
+      <div>
         <table class="table table-hover">
         <thead>
             <tr>
