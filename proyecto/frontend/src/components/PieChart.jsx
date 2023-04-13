@@ -4,22 +4,22 @@ import ChartDataLabels from 'chartjs-plugin-datalabels';
 
 function PieChart({ chartData }) {
   return (
-    <div className="chart-container" >
+    <div className="chart-container1" >
       <h2 style={{ textAlign: "center" }}>Pie Chart</h2>
       <Pie
         data={chartData}
         plugins={[ChartDataLabels]}
         options={{
-          cutoutPercentage: 20,
           title: {
             display: true,
-            text: "Porcentaje de Votos"
+            text: "Porcentaje de Votos",
+            position: 'top'
           },
           plugins: {
             datalabels: {
-              color: '#ffffff',
+              color: '#43475C ',
               font: {
-                size: 18,
+                size: 12,
                 weight: 'bold',
               },
               formatter: function(value, context) {

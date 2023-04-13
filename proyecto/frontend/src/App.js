@@ -6,6 +6,10 @@ import { DataBarras } from "./DataBarras";
 import PieChart from "./components/PieChart";
 import BarChart from "./components/BarChart";
 import WebSocket from "./components/WebSocketExample"
+import Tabla from "./components/tabla5votos";
+import Top3 from "./components/top3";
+import './App.css';
+
 
 Chart.register(CategoryScale);
  
@@ -50,17 +54,37 @@ const [chartDataBarras, setChartDataBarras] = useState({
  
   return (
     <div className="App">
-      <div>
+
+    <div class="container">
+    <WebSocket/>
+      <div class="row">
+        <div class="col mx-auto">        
+        <div>
         <PieChart chartData={chartData} />   
       </div>
-      <div>
-        <BarChart chartData={chartDataBarras}/>   
+        </div>
+        <div class="col">
+          <BarChart chartData={chartDataBarras}/> 
+        </div>
       </div>
-      <div>
-        <br></br>
-        <br></br>
-        <WebSocket/>
-      </div>        
+    </div>  
+
+    <div class="container container2">
+      <div class="row">
+        <div class="col mx-auto">        
+        <div>
+        <h3>Top 3</h3>
+        <Top3></Top3>
+      </div>
+        </div>
+        <div class="col">
+          <h3>Ultimos 5 votos</h3>
+          <Tabla></Tabla>
+        </div>
+      </div>
+    </div> 
+
+
     </div>
   );
 }
