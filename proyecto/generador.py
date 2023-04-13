@@ -4,12 +4,13 @@ import random
 # Definir listas de valores posibles para cada campo
 partidos = ["UNE", "VAMOS", "FCN", "UNIONISTA", "VALOR"]
 papeletas = ["Blanca", "Verde", "Rosada"]
-departamentos = ["Guatemala", "Chimaltenango", "Suchitepequez", "Escuintla"]
+departamentos = ["Guatemala", "Chimaltenango", "Suchitepequez", "Escuintla", "Alta Verapaz"]
 municipios = {
-    "Guatemala": ["Guatemala", "Mixco", "San Miguel Petapa", "Villa Nueva"],
-    "Chimaltenango": ["Chimaltenango", "El Tejar", "San Andres Itzapa", "Patzicia"],
+    "Guatemala": ["Guatemala", "Mixco", "Villa Nueva"],
+    "Chimaltenango": ["Chimaltenango", "El Tejar", "San Andres Itzapa"],
     "Suchitepequez": ["San Francisco Zapotitlan", "Chicacao", "San Antonio Suchitepequez"],
-    "Escuintla": ["Siquinala", "Tiquisate"]
+    "Escuintla": ["Siquinala", "Tiquisate", "Santa Lucia Cotzumalguapa"],
+    "Alta Verapaz": ["Coban", "San Pedro Carcha", "Chisec"]
 }
 
 # Crear diccionario de ids de municipios
@@ -36,7 +37,7 @@ def generar_elemento():
     }
 
 # Generar lista de 15 elementos aleatorios
-elementos = [generar_elemento() for _ in range(100)]
+elementos = [generar_elemento() for _ in range(10)]
 
 # Escribir lista de elementos en archivo JSON
 with open("ejemplo.json", "w") as archivo:
