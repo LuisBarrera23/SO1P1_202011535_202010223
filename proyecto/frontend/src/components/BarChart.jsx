@@ -11,7 +11,7 @@ function BarChart({ chartData }) {
           plugins: {
             title: {
               display: true,
-              text: "Users Gained between 2016-2020"
+              text: "5 sedes con mayor cantidad de votos"
             },
             legend: {
               display: false
