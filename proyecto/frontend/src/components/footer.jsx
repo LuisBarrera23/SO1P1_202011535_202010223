@@ -13,8 +13,8 @@ const Footer = () => {
           </div>
           <div className="col-md-4 mb-4 mb-md-0">
             <h5>Autores</h5>
-            <p>Esteban Valdez</p>
-            <p>Angel Barrera</p>
+            <p>Esteban Humberto Valdez Ennati</p>
+            <p>Luis Angel Barrera Velasquez</p>
           </div>
           <div className="col-md-4 mb-4 mb-md-0">
             <h5>Siguenos</h5>
