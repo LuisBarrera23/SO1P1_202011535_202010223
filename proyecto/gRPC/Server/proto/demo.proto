@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.demo";
+option java_outer_classname = "DemoProto";
+option objc_class_prefix = "HLW";
+
+package demo;
+
+service Datos {
+  rpc addData (DataRequest) returns (Reply) {}
+}
+
+message DataRequest {
+  int32 sede = 1;
+  string municipio = 2;
+  string departamento = 3;
+  string papeleta = 4;
+  string partido = 5;  
+}
+
+message Reply {
+  string message = 1;
+}
+
+

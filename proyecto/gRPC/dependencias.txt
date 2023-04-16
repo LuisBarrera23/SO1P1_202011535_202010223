@@ -1,0 +1,13 @@
+npm init -y 
+
+Server 
+npm install mysql           
+npm install @grpc/grpc-js @grpc/proto-loader async google-protobuf lodash minimist
+
+Cliente 
+npm isntall express cors morgan
+npm install @grpc/grpc-js @grpc/proto-loader async google-protobuf lodash minimist
+
+
+bases de datos 
+docker exec -it base_datos  mysql -uroot -p1234

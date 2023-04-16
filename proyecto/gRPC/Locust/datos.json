@@ -1,0 +1,72 @@
+[
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 12,
+        "municipio": "Santa Lucia Cotzumalguapa",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 3,
+        "municipio": "Villa Nueva",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Rosada",
+        "partido": "UNE"
+    }
+]
