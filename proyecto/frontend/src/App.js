@@ -1,9 +1,8 @@
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
-import { useState } from "react";
-import { Data } from "./Data";
+import React, { useState, useEffect } from "react";
 import { DataBarras } from "./DataBarras";
-import PieChart from "./components/PieChart";
+import GestionPieChart from "./components/GestionPieChart";
 import BarChart from "./components/BarChart";
 import WebSocket from "./components/WebSocketExample"
 import Tabla from "./components/tabla5votos";
@@ -12,28 +11,19 @@ import './App.css';
 import Footer from "./components/footer";
 
 
-
 Chart.register(CategoryScale);
  
 export default function App() {
-  const [chartData, setChartData] = useState({
-    labels: Data.map((data) => data.partido), 
-    datasets: [
-      {
-        label: "porcentaje",
-        data: Data.map((data) => data.porcentaje),
-        backgroundColor: [
-          "#20EA56",
-          "#2069EA",
-          "#21B9B7",
-          "#EDAE2F",
-          "#969BA4"
-        ],
-        borderColor: "skyblue",
-        borderWidth: 2
-      }
-    ]
-  });
+
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:8080/data")
+      .then((response) => response.json())
+      .then((data) => setData(data))
+      .catch((error) => console.error(error));
+  }, []);
+  
 const [chartDataBarras, setChartDataBarras] = useState({
   labels: DataBarras.map((data) => "sede: " + data.sede),
   datasets: [
@@ -60,9 +50,12 @@ const [chartDataBarras, setChartDataBarras] = useState({
     <div class="container">
     <WebSocket/>
       <div class="row">
-        <div class="col mx-auto">        
+        <div class="col mx-auto">     
+
+        <GestionPieChart data={data}/>
+
         <div>
-        <PieChart chartData={chartData} />   
+        
       </div>
         </div>
         <div class="col">
