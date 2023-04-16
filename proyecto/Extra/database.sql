@@ -1,6 +1,6 @@
-create database so1_proyecto1;
+create database db_so1;
 
-use so1_proyecto1;
+use db_so1;
 
 DROP TABLE IF EXISTS  Votos_data;
 
