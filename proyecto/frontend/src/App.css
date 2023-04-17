@@ -26,3 +26,7 @@ body {
 .chart-container2 {
   margin-right: 10%;
 }
+
+textarea {
+  resize: none;
+}

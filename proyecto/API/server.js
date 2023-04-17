@@ -38,6 +38,30 @@ app.get('/data', (req, res) => {
   });
 });
 
+app.get('/top3', (req, res) => {
+  const query = `
+    SELECT departamento, COUNT(*) as total_votos
+    FROM Votos_data
+    WHERE papeleta = 'Blanca'
+    GROUP BY departamento
+    ORDER BY total_votos DESC
+    LIMIT 3
+  `;
+
+  connection.query(query, (err, result) => {
+    if (err) {
+      res.status(500).send('Error en la consulta');
+    } else {
+      const data = result.map(row => ({
+        departamento: row.departamento,
+        total_votos: row.total_votos,
+      }));
+      res.json(data);
+    }
+  });
+});
+
+
 app.get('/getPie', (req, res) => {
   const option = req.query.option;
   const depto_municipio = req.query.value;

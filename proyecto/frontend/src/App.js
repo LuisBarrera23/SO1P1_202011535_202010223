@@ -68,8 +68,10 @@ const [chartDataBarras, setChartDataBarras] = useState({
       <div class="row">
         <div class="col mx-auto">        
         <div>
-        <h3>Top 3</h3>
-        <Top3></Top3>
+        <h3 style={{color:"white"}}>Top 3</h3>
+        <h4>Deptos - Votos para Presidente (Tarjeta Blanca)</h4>
+        
+        <Top3/>
       </div>
         </div>
         <div class="col">
@@ -78,6 +80,12 @@ const [chartDataBarras, setChartDataBarras] = useState({
         </div>
       </div>
     </div> 
+    <div class="container">
+      <h2>Datos almacenados en MySQL</h2>
+      <textarea style={{ height: '400px' }} className="form-control" readOnly value={JSON.stringify(data, null, 2)} />
+
+    </div>
+    
 
     <Footer></Footer>
 

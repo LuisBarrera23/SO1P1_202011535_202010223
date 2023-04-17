@@ -1,38 +1,37 @@
-function Top3() {
-    return (
-      <div>
-<table class="table table-striped table-dark">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-      </div>
-    );
-  };
-  
-  export default Top3;
+import { useState, useEffect } from "react";
+
+function Top3({data}) {
+  const [top3, setTop3] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:8080/top3")
+      .then((response) => response.json())
+      .then((data) => setTop3(data))
+      .catch((error) => console.error(error));
+  }, []);
+
+  return (
+    <div className="container">
+      <table className="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Departamento</th>
+            <th scope="col">Votos</th>
+          </tr>
+        </thead>
+        <tbody>
+          {top3.map((item, index) => (
+            <tr key={index}>
+              <th scope="row">{index + 1}</th>
+              <td>{item.departamento}</td>
+              <td>{item.total_votos}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+export default Top3;
