@@ -37,7 +37,7 @@ def generar_elemento():
     }
 
 # Generar lista de 15 elementos aleatorios
-elementos = [generar_elemento() for _ in range(10)]
+elementos = [generar_elemento() for _ in range(200)]
 
 # Escribir lista de elementos en archivo JSON
 with open("ejemplo.json", "w") as archivo:

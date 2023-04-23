@@ -1,7 +1,6 @@
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 import React, { useState, useEffect } from "react";
-import { DataBarras } from "./DataBarras";
 import GestionPieChart from "./components/GestionPieChart";
 import BarChart from "./components/BarChart";
 import WebSocket from "./components/WebSocketExample"
@@ -16,32 +15,28 @@ Chart.register(CategoryScale);
 export default function App() {
 
   const [data, setData] = useState([]);
+  const [dataBarras, setdataBarras] = useState([]);
+  const [dataTabla, setdataTabla] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8080/data")
-      .then((response) => response.json())
-      .then((data) => setData(data))
-      .catch((error) => console.error(error));
+    const fetchData = () => {
+      Promise.all([
+        fetch("http://localhost:8080/data").then((response) => response.json()),
+        fetch("http://localhost:8080/redis").then((response) => response.json())
+      ]).then(([data, redisData]) => {
+        console.log(redisData.sede_counters);
+        setData(data);
+        setdataTabla(redisData.last_five);
+        setdataBarras(redisData.sede_counters);
+      }).catch((error) => console.error(error));
+    };
+    // Se ejecuta fetchData() inmediatamente y luego cada 1 segundo
+    const intervalId = setInterval(fetchData, 1000);
+    // Devuelve una función para cancelar el intervalo cuando el componente se desmonte
+    return () => clearInterval(intervalId);
   }, []);
   
-const [chartDataBarras, setChartDataBarras] = useState({
-  labels: DataBarras.map((data) => "sede: " + data.sede),
-  datasets: [
-    {
-      label: "Votos de la sede",
-      data: DataBarras.map((data) => data.votos),
-      backgroundColor: [
-        "#155C28",
-        "#154C5C",
-        "#50AF95",
-        "#f3ba2f",
-        "#2a71d0"
-      ],
-      borderColor: "skyblue",
-      borderWidth: 2
-    }
-  ]
-});
+
 
  
   return (
@@ -59,7 +54,7 @@ const [chartDataBarras, setChartDataBarras] = useState({
       </div>
         </div>
         <div class="col">
-          <BarChart chartData={chartDataBarras}/> 
+          <BarChart dataBarras={dataBarras}/> 
         </div>
       </div>
     </div>  
@@ -69,14 +64,14 @@ const [chartDataBarras, setChartDataBarras] = useState({
         <div class="col mx-auto">        
         <div>
         <h3 style={{color:"white"}}>Top 3</h3>
-        <h4>Deptos - Votos para Presidente (Tarjeta Blanca)</h4>
+        <h4>Departamentos con mayores votos para presidente</h4>
         
         <Top3/>
       </div>
         </div>
         <div class="col">
-          <h3>Ultimos 5 votos</h3>
-          <Tabla></Tabla>
+          <h3 style={{color:"white"}}>Ultimos 5 votos</h3>
+          <Tabla dataTabla={dataTabla}></Tabla>
         </div>
       </div>
     </div> 

@@ -120,6 +120,6 @@ func main() {
 		fmt.Fprintf(w, "All data deleted from Redis")
 	})
 
-	fmt.Println("Listening on :3000")
-	http.ListenAndServe(":3000", nil)
+	fmt.Println("Listening on :8082")
+	http.ListenAndServe(":8082", nil)
 }

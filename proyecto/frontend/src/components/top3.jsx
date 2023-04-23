@@ -4,10 +4,20 @@ function Top3({data}) {
   const [top3, setTop3] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8080/top3")
-      .then((response) => response.json())
-      .then((data) => setTop3(data))
-      .catch((error) => console.error(error));
+    const fetchData = () => {
+      fetch("http://localhost:8080/top3")
+        .then((response) => response.json())
+        .then((data) => setTop3(data))
+        .catch((error) => console.error(error));
+    };
+  
+    fetchData(); // Ejecutar fetch() una vez al cargar el componente
+  
+    const interval = setInterval(() => {
+      fetchData(); // Ejecutar fetch() cada 1 segundo
+    }, 1000);
+  
+    return () => clearInterval(interval); // Limpiar el intervalo cuando el componente se desmonte
   }, []);
 
   return (

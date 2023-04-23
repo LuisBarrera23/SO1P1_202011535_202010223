@@ -5,7 +5,7 @@ import ChartDataLabels from 'chartjs-plugin-datalabels';
 function PieChart({ chartData, title, total_votos }) {
   return (
     <div className="chart-container1" >
-      <h2 style={{ textAlign: "center" }}>Pie Chart</h2>
+      <h2 style={{ textAlign: "center" }}>Porcentaje de votos por partido</h2>
             
       <Pie
         data={chartData}

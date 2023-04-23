@@ -24,7 +24,7 @@ function WebSocketExample() {
   
     return (
       <div>
-        <p>La fecha actual es: {currentDate}</p>
+        <h4>La fecha actual es: {currentDate}</h4>
       </div>
     );
   }
