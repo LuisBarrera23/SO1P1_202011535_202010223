@@ -4,7 +4,7 @@ var morgan = require('morgan');
 var cors = require('cors');
 
 //Settings
-const port = 8080;
+const port = 7070;
 
 //Middlewares
 app.use(express.json());

@@ -20,7 +20,7 @@ var target;
 if (argv.target) {
   target = argv.target;
 } else {
-  target = 'localhost:50051';
+  target = 'grpc_server:50051';
 }
 var client = new demo_proto.Datos(target, grpc.credentials.createInsecure());
   

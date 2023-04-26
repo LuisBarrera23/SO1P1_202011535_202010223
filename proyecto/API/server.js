@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const redis = require('redis');
 const client = redis.createClient({
-  host: 'localhost',
+  host: 'redisservicio',
   port: 6379
 });
 
@@ -18,7 +18,7 @@ const server = require('http').createServer(app);
 const wss = new WebSocket.Server({ server });
 
 const connection = mysql.createConnection({
-  host     : 'localhost',
+  host     : 'db',
   user     : 'root',
   password : '1234',
   database : 'db_so1'
