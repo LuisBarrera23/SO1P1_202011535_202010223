@@ -1,0 +1,67 @@
+version: '3'
+services:
+  redisservicio:
+    image: redis
+    container_name: rediscontenedor
+    ports:
+      - "6379:6379"
+    expose:
+      - "6379"
+  db:
+    image: mysql:5.7
+    container_name: base_datos
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: '1234'
+      MYSQL_PASSWORD: '1234'
+      MYSQL_DATABASE: db_so1
+    ports:
+      - "3306:3306"
+    expose:
+      - '3306'
+    volumes:
+      - db_data:/var/lib/mysql
+
+  redispub:
+    build: ./Redispub
+    container_name: RedisPub
+    restart: always
+    image: luisbarrera23/redispub
+    ports:
+      - "8082:8082"
+    environment:
+      TZ: America/Guatemala
+    depends_on:
+      - redisservicio
+    links: 
+      - redisservicio
+  
+  redissub:
+    build: ./Redissub
+    container_name: RedisSub
+    restart: always
+    image: luisbarrera23/redissub
+    environment:
+      TZ: America/Guatemala
+    depends_on:
+      - redisservicio
+      - db
+    links: 
+      - redisservicio
+      - db
+
+  # api:
+  #   build: ./API
+  #   container_name: apiProduccion
+  #   restart: always
+  #   image: luisbarrera23/api
+  #   ports:
+  #     - '8080:8080'
+  #   depends_on:
+  #     - redis
+  #     - db
+  #   links: 
+  #     - redis
+  #     - db
+volumes:
+  db_data:

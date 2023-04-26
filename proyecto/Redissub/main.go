@@ -20,7 +20,7 @@ type Data struct {
 }
 
 func conectarBaseDeDatos() (conexion *sql.DB) {
-	nombreContenedor := "localhost"
+	nombreContenedor := "base_datos"
 	nombreDB := "db_so1"
 	driver := "mysql"
 	usuario := "root"
@@ -36,7 +36,7 @@ func conectarBaseDeDatos() (conexion *sql.DB) {
 
 func main() {
 	rdb := redis.NewClient(&redis.Options{
-		Addr: "localhost:6379",
+		Addr: "rediscontenedor:6379",
 	})
 
 	ctx := context.Background()
@@ -46,7 +46,7 @@ func main() {
 	ch := pubsub.Channel()
 
 	for msg := range ch {
-		fmt.Println(msg.Payload)
+		// fmt.Println(msg.Payload)
 		var data Data
 		err := json.Unmarshal([]byte(msg.Payload), &data)
 		if err != nil {
@@ -62,6 +62,6 @@ func main() {
 		datalogs.Exec()
 		DBconexion.Close()
 
-		fmt.Printf("Mensaje recibido: %v\n", data.Departamento)
+		fmt.Println("Mensaje recibido: %v \n", data)
 	}
 }

@@ -19,7 +19,7 @@ type Data struct {
 
 func main() {
 	rdb := redis.NewClient(&redis.Options{
-		Addr: "localhost:6379",
+		Addr: "rediscontenedor:6379",
 	})
 
 	// Endpoint para almacenar los datos en Redis
