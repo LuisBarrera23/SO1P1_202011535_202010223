@@ -27,7 +27,10 @@ export default function App() {
         console.log(redisData.sede_counters);
         setData(data);
         setdataTabla(redisData.last_five);
-        setdataBarras(redisData.sede_counters);
+        if (redisData.sede_counters.length > 0) {
+          setdataBarras(redisData.sede_counters);
+        }
+        
       }).catch((error) => console.error(error));
     };
     // Se ejecuta fetchData() inmediatamente y luego cada 1 segundo

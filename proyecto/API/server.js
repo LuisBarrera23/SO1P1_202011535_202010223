@@ -4,7 +4,8 @@ const mysql = require('mysql');
 const cors = require('cors');
 
 const redis = require('redis');
-const client = redis.createClient({
+
+const redisClient = redis.createClient({
   host: 'redisservicio',
   port: 6379
 });
@@ -34,43 +35,55 @@ connection.connect((err) => {
 
 // Endpoint HTTP
 
-app.get('/redis', async (req, res) => {
+app.get('/redis', (req, res) => {
   try {
-    await client.connect();
-    const valuesLastFive = await client.lRange('last_five', 0, -1);
-    const valuesSedeCounters = await client.hGetAll('sede_counters')
-    await client.quit();
-    
-    const data = {
-      last_five: [],
-      sede_counters: {}
-    };
-    
-    if (valuesLastFive && valuesLastFive.length) {
-      // convierte cada cadena JSON en un objeto JavaScript
-      const arrayObjetos = valuesLastFive.map(cadenaJSON => JSON.parse(cadenaJSON));
-      data.last_five = arrayObjetos;
-    }
-    
-    if (valuesSedeCounters) {
-      // convierte el objeto de la forma {"sede_contador": "valor"} a un array de objetos de la forma {"sede": "valor", "contador": "valor"}
-      const arraySedeCounters = Object.entries(valuesSedeCounters).map(([key, value]) => ({
-        sede: key,
-        contador: parseInt(value)
-      }));
-    
-      // ordena el array por el valor del contador y lo limita a los primeros 5 elementos
-      const topFive = arraySedeCounters.sort((a, b) => b.contador - a.contador).slice(0, 5);
-    
-      data.sede_counters = topFive;
-    }
-    
-    res.json(data); // envía la respuesta como un objeto JSON
+    redisClient.lrange('last_five', 0, -1, function(err, valuesLastFive) {
+      if (err) {
+        console.error(err);
+        res.status(500).send('Ocurrió un error al obtener los valores');
+        return;
+      }
+      
+      redisClient.hgetall('sede_counters', function(err, valuesSedeCounters) {
+        if (err) {
+          console.error(err);
+          res.status(500).send('Ocurrió un error al obtener los valores');
+          return;
+        }
+        
+        const data = {
+          last_five: [],
+          sede_counters: {}
+        };
+        
+        if (valuesLastFive && valuesLastFive.length) {
+          // convierte cada cadena JSON en un objeto JavaScript
+          const arrayObjetos = valuesLastFive.map(cadenaJSON => JSON.parse(cadenaJSON));
+          data.last_five = arrayObjetos;
+        }
+        
+        if (valuesSedeCounters) {
+          // convierte el objeto de la forma {"sede_contador": "valor"} a un array de objetos de la forma {"sede": "valor", "contador": "valor"}
+          const arraySedeCounters = Object.entries(valuesSedeCounters).map(([key, value]) => ({
+            sede: key,
+            contador: parseInt(value)
+          }));
+        
+          // ordena el array por el valor del contador y lo limita a los primeros 5 elementos
+          const topFive = arraySedeCounters.sort((a, b) => b.contador - a.contador).slice(0, 5);
+        
+          data.sede_counters = topFive;
+        }
+        
+        res.json(data); // envía la respuesta como un objeto JSON
+      });
+    });
   } catch (error) {
     console.error(error);
     res.status(500).send('Ocurrió un error al obtener los valores');
   }
 });
+
 
 
 app.get('/data', (req, res) => {
@@ -131,7 +144,7 @@ app.get('/getPie', (req, res) => {
           reject(error);
           return;
         }
-        console.log(results[0])
+        
         const votos = results[0].votos;
         resolve({ partido, votos });
       });

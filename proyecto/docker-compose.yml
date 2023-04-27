@@ -19,7 +19,7 @@ services:
       - grpc_server
 
   redisservicio:
-    image: redis
+    image: redis:alpine
     container_name: rediscontenedor
     ports:
       - "6379:6379"
