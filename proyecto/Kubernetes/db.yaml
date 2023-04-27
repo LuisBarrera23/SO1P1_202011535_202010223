@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: db
+  name: db
+  namespace: proyecto1-so1
+spec:
+  selector:
+    matchLabels:
+      app: db
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: db
+    spec:
+      containers:
+      - name: db
+        image: mysql:5.7
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: "1234"
+        - name: MYSQL_PASSWORD
+          value: "1234"
+        - name: MYSQL_DATABASE
+          value: "db_so1"
+        ports:
+        - containerPort: 3306
+        volumeMounts:
+        - name: db-data
+          mountPath: /var/lib/mysql
+      volumes:
+      - name: db-data
+        emptyDir: {}
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    run: db
+  name: db
+  namespace: proyecto1-so1
+spec:
+  selector:
+    app: db
+  ports:
+  - name: mysql
+    port: 3306
+    targetPort: 3306
+  type: LoadBalancer
+

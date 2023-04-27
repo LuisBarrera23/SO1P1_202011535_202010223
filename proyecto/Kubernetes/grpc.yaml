@@ -1,0 +1,71 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: proyecto1-so1
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: grpc
+  name: grpc
+  namespace: proyecto1-so1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: grpc
+  template:
+    metadata:
+      labels:
+        app: grpc
+    spec:
+      containers:
+      - image: ennox2/gclient
+        imagePullPolicy: Always
+        name: gclient
+        ports:
+          - containerPort: 7070
+        env:
+          - name: GRPC_SERVER_ADDRESS
+            value: grpc:50051
+
+      - image: ennox2/gserver
+        imagePullPolicy: Always
+        name: gserver
+        ports:
+          - containerPort: 50051
+        env:
+          - name: DB_HOST
+            value: db
+          - name: DB_USER
+            value: root
+          - name: DB_PASSWORD
+            value: "1234"
+          - name: DB_DATABASE
+            value: db_so1
+        
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    run: grpc
+  name: grpc
+  namespace: proyecto1-so1
+spec:
+  selector:
+    app: grpc
+  ports:
+  - name: grpc-port
+    port: 7070
+    targetPort: 7070
+  - name: grpc-target-port
+    port: 50051
+    targetPort: 50051
+  type: LoadBalancer
+
+

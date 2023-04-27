@@ -20,7 +20,7 @@ var target;
 if (argv.target) {
   target = argv.target;
 } else {
-  target = 'grpc_server:50051';
+  target = process.env.GRPC_SERVER_ADDRESS;
 }
 var client = new demo_proto.Datos(target, grpc.credentials.createInsecure());
   
