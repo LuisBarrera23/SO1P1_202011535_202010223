@@ -1,0 +1,48 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: redis
+  name: redis
+  namespace: proyecto1-so1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      containers:
+      - image: luisbarrera23/redispub
+        imagePullPolicy: Always
+        name: redispub
+        ports:
+          - containerPort: 8082
+
+      - image: luisbarrera23/redissub
+        imagePullPolicy: Always
+        name: redissub
+        
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    run: redis
+  name: redis
+  namespace: proyecto1-so1
+spec:
+  selector:
+    app: redis
+  ports:
+  - name: redispub-port
+    port: 8082
+    targetPort: 8082
+  type: LoadBalancer
+
+

@@ -20,7 +20,7 @@ type Data struct {
 }
 
 func conectarBaseDeDatos() (conexion *sql.DB) {
-	nombreContenedor := "base_datos"
+	nombreContenedor := "db"
 	nombreDB := "db_so1"
 	driver := "mysql"
 	usuario := "root"
