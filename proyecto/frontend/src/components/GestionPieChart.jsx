@@ -55,7 +55,7 @@ function GestionPieChart({data}) {
             name = "Municipio "
         }
         
-        const url = `http://localhost:8080/getPie?option=${option}&value=${value}`;
+        const url = `${process.env.REACT_APP_API_HOST}/getPie?option=${option}&value=${value}`;
         fetch(url)
         .then(response => response.json())  
         .then(data => {

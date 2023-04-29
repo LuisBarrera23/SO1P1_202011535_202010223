@@ -13,6 +13,7 @@ import Footer from "./components/footer";
 Chart.register(CategoryScale);
  
 export default function App() {
+  const apiUrl = process.env.REACT_APP_API_HOST;
 
   const [data, setData] = useState([]);
   const [dataBarras, setdataBarras] = useState([]);
@@ -21,8 +22,8 @@ export default function App() {
   useEffect(() => {
     const fetchData = () => {
       Promise.all([
-        fetch("http://localhost:8080/data").then((response) => response.json()),
-        fetch("http://localhost:8080/redis").then((response) => response.json())
+        fetch(`${apiUrl}/data`).then((response) => response.json()),
+        fetch(`${apiUrl}/redis`).then((response) => response.json())
       ]).then(([data, redisData]) => {
         console.log(redisData.sede_counters);
         setData(data);

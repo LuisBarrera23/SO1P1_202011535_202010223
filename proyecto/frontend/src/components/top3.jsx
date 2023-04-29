@@ -5,7 +5,7 @@ function Top3({data}) {
 
   useEffect(() => {
     const fetchData = () => {
-      fetch("http://localhost:8080/top3")
+      fetch(`${process.env.REACT_APP_API_HOST}/top3`)
         .then((response) => response.json())
         .then((data) => setTop3(data))
         .catch((error) => console.error(error));

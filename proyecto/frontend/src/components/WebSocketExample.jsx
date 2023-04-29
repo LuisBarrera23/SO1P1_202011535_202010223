@@ -5,7 +5,7 @@ function WebSocketExample() {
     const [currentDate, setCurrentDate] = useState('');
   
     useEffect(() => {
-      const newSocket = new WebSocket('ws://localhost:8080');
+      const newSocket = new WebSocket(`ws://${process.env.REACT_APP_API_HOST_WS}`);
   
       newSocket.onopen = () => {
         console.log('Conectado al servidor WebSocket');
