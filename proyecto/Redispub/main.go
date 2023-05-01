@@ -23,7 +23,7 @@ func main() {
 	})
 
 	// Endpoint para almacenar los datos en Redis
-	http.HandleFunc("/caso/agregarCaso", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/redis/agregarCaso", func(w http.ResponseWriter, r *http.Request) {
 		if r.Method == "POST" {
 			var data Data
 			err := json.NewDecoder(r.Body).Decode(&data)
@@ -118,6 +118,10 @@ func main() {
 		}
 
 		fmt.Fprintf(w, "All data deleted from Redis")
+	})
+
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintf(w, "Redis funcionando!")
 	})
 
 	fmt.Println("Listening on :8082")

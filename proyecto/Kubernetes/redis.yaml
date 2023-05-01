@@ -7,7 +7,7 @@ metadata:
   name: redis
   namespace: proyecto1-so1
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: redis
@@ -17,7 +17,7 @@ spec:
         app: redis
     spec:
       containers:
-      - image: luisbarrera23/redispub
+      - image: ennox2/redispub
         imagePullPolicy: Always
         name: redispub
         ports:

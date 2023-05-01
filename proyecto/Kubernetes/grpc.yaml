@@ -13,7 +13,7 @@ metadata:
   name: grpc
   namespace: proyecto1-so1
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: grpc
@@ -23,7 +23,7 @@ spec:
         app: grpc
     spec:
       containers:
-      - image: ennox2/gclient
+      - image: ennox2/gclient:v2
         imagePullPolicy: Always
         name: gclient
         ports:
