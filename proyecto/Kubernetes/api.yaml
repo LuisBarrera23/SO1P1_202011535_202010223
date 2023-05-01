@@ -22,6 +22,9 @@ spec:
         name: apifront
         ports:
           - containerPort: 8080
+        env:
+          - name: TZ
+            value: America/Guatemala
         
 ---
 

@@ -18,20 +18,20 @@ const server = require('http').createServer(app);
 // Crear una instancia de WebSocket y conectarla al servidor HTTP
 const wss = new WebSocket.Server({ server });
 
-// const connection = mysql.createConnection({
-//   host     : 'db',
-//   user     : 'root',
-//   password : '1234',
-//   database : 'db_so1'
-// });
+const connection = mysql.createConnection({
+  host     : 'db',
+  user     : 'root',
+  password : '1234',
+  database : 'db_so1'
+});
 
-// connection.connect((err) => {
-//   if (err) {
-//     console.error('Error al conectarse a la base de datos: ', err);
-//     process.exit(1);
-//   }
-//   console.log('Conectado a base de Datos!');
-// });
+connection.connect((err) => {
+  if (err) {
+    console.error('Error al conectarse a la base de datos: ', err);
+    process.exit(1);
+  }
+  console.log('Conectado a base de Datos!');
+});
 
 // Endpoint HTTP
 
