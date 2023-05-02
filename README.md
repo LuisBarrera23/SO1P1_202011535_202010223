@@ -13,13 +13,13 @@ gRPC (gRPC Remote Procedure Call) es un sistema de llamadas a procedimientos rem
 
 ### gRPC Client
 
-El cliente gRPC es responsable de establecer una conexión con el servidor gRPC y enviar solicitudes de llamada a procedimientos remotos (RPC) utilizando el protocolo de comunicación gRPC. Para realizar esto, el cliente gRPC debe conocer la definición de los servicios y los mensajes del servidor gRPC.
+El cliente gRPC es responsable de establecer una conexión con el servidor y enviar solicitudes de llamada a procedimientos remotos (RPC) utilizando el protocolo de comunicación. Para realizar esto, el cliente debe conocer la definición de los servicios y los mensajes del servidor.
 
-Esto se realizo por medio de una API la cual realiza la importacion del modulo gRPC_client que contiene la definición del cliente gRPC que se utilizará para enviar solicitudes al servidor gRPC.
+Esto se realizo por medio de una API la cual realiza la importacion del modulo gRPC_client que contiene la definición del cliente que se utilizará para enviar solicitudes al servidor.
 
-Luego, en el endpoint `/grpc/agregarCaso`, se define una ruta POST que recibe datos de un caso mediante un objeto JSON en el cuerpo de la solicitud. Este objeto se envía al cliente gRPC, específicamente a la función addData(), que a su vez envía una solicitud al servidor gRPC para agregar el caso a un sistema de registro de casos.
+Luego, en el endpoint `/grpc/agregarCaso`, se define una ruta POST que recibe datos de un caso mediante un objeto JSON en el cuerpo de la solicitud. Este objeto se envía al cliente, específicamente a la función addData(), que a su vez envía una solicitud al servidor para agregar el caso a un sistema de registro de casos.
 
-Dentro de la definicion de gRPC_client se establece el camino del archivo de definición de Protocol Buffers que define el servicio gRPC que se utilizará. Este archivo se encuentra en la ruta `./proto/demo.proto`.
+Dentro de la definicion de gRPC_client se establece el camino del archivo de definición de Protocol Buffers que define el servicio que se utilizará. Este archivo se encuentra en la ruta `./proto/demo.proto`.
 
 Luego, se utilizan las bibliotecas 
 
