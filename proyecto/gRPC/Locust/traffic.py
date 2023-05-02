@@ -27,6 +27,7 @@ class trafficData(HttpUser):
     wait_time = between(0.1, 0.9) #Tiempo de espera entre registros
     reader = readFile()
     reader.loadFile()
+    endpoint_index = 0 # Variable de control para alternar entre endpoints
 
     def on_start(self):
         print("On Start")
@@ -35,8 +36,14 @@ class trafficData(HttpUser):
     def sendMessage(self):
         data = self.reader.getData() #Registro obtenido de la lista
         if data is not None:
-            res = self.client.post("/caso/agregarCaso", json=data)
-            print(res)
+            if self.endpoint_index == 0:
+                res = self.client.post("/grpc/agregarCaso", json=data)
+                print(res)
+                self.endpoint_index = 1
+            else:
+                res = self.client.post("/redis/agregarCaso", json=data)
+                print(res)
+                self.endpoint_index = 0
         else:
             print("Empty") #No hay mas datos por enviar
             self.stop(True)
