@@ -5,7 +5,11 @@ FACULTAD DE INGENIERÍA
 ESCUELA DE CIENCIAS Y SISTEMAS    
 SISTEMAS OPERATIVOS 1 - SECCIÓN N
 
-**Autor: Esteban Humberto Valdez Ennati          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Carné: 202011535**
+**Autores:**
+
+**Esteban Humberto Valdez Ennati          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Carné: 202011535**
+
+**Luis Angel Barrera Velásquez          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Carné: 202010223**
 
 # gRPC
 
