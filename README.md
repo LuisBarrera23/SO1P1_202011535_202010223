@@ -44,13 +44,13 @@ Kubernetes es una plataforma de orquestación de contenedores de código abierto
 
 Para ello se empezó con la creacion de un cluster con las siguientes especificaciones: 
 
-Nombre del cluster: k8s-demo
-Numero de nodos(1): --num-nodes=1
-Tipo de VM (2 CPUs, 8GB RAM): --machine-type=n1-standard-2
-Nota: Requerimientos minimos 2 CPUs y 4GB RAM, y 3 nodos
-Networks rules (allin, allout): --tags=allin,allout
-Autenticacion con certificado: --enable-legacy-authorization --issue-client-certificate
-Habilitar el escalado automatico (Minimo de nodos 1 y maximo 3): --enable-autoscaling --min-nodes=1 --max-nodes=3
+Nombre del cluster: k8s-demo <br>
+Numero de nodos(1): --num-nodes=1 <br>
+Tipo de VM (2 CPUs, 8GB RAM): --machine-type=n1-standard-2 <br>
+Nota: Requerimientos minimos 2 CPUs y 4GB RAM, y 3 nodos <br>
+Networks rules (allin, allout): --tags=allin,allout <br>
+Autenticacion con certificado: --enable-legacy-authorization --issue-client-certificate <br> 
+Habilitar el escalado automatico (Minimo de nodos 1 y maximo 3): --enable-autoscaling --min-nodes=1 --max-nodes=3 <br>
 
 Se creó aplicando el siguiente comando: 
 
