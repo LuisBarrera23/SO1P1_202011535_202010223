@@ -28,6 +28,12 @@ minimist
 @grpc/proto-loader
 ```
  para cargar el archivo de definición de Protocol Buffers y definir las opciones de carga, como mantener los nombres en minúsculas y manejar los valores de enumeración como cadenas. Estas opciones se utilizan para generar una definición de paquete que se cargará en el cliente gRPC.
+ 
+ Las bibliotecas requeridas son instaladas con los comandos: 
+ ```
+npm install express cors morgan
+npm install @grpc/grpc-js @grpc/proto-loader async google-protobuf lodash minimist
+ ```
 
 ### gRPC Server
 
@@ -36,6 +42,12 @@ Un servidor gRPC es un proceso que escucha las solicitudes de los clientes y pro
 Utiliza un archivo de definición de Protocol Buffers para definir el servicio que se proporcionará a los clientes. Luego, el servidor agrega el servicio definido en el archivo de definición y se inicia en el puerto 50051. Una vez que el servidor está en ejecución, puede recibir solicitudes de clientes gRPC.
 
 El servidor gRPC definido en este código tiene una función que maneja las solicitudes de los clientes. La función, llamada addData, toma un objeto de solicitud del cliente y lo usa para insertar datos en una base de datos MySQL. Cuando se completa la inserción de datos, la función devuelve una respuesta al cliente.
+
+ Las bibliotecas requeridas son instaladas con los comandos: 
+ ```
+npm install mysql           
+npm install @grpc/grpc-js @grpc/proto-loader async google-protobuf lodash minimist
+ ```
 
 
 # Kubernetes 
