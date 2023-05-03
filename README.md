@@ -1,4 +1,5 @@
 # Proyecto 1 :pencil:
+# Manual tecnico
 
 UNIVERSIDAD DE SAN CARLOS DE GUATEMALA  
 FACULTAD DE INGENIERÍA  
@@ -10,6 +11,7 @@ SISTEMAS OPERATIVOS 1 - SECCIÓN N
 **Esteban Humberto Valdez Ennati          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Carné: 202011535**
 
 **Luis Angel Barrera Velásquez          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Carné: 202010223**
+
 
 # gRPC
 
@@ -209,6 +211,20 @@ CREATE TABLE Votos_data (
     partido VARCHAR(255) NOT NULL
 );
 ```
+### Ingress
+Linkerd es un servicio de malla de servicio o service mesh de código abierto diseñado para ayudar a los desarrolladores a manejar la complejidad de las aplicaciones en contenedores.
+
+En una arquitectura de microservicios, donde la funcionalidad de una aplicación se descompone en servicios más pequeños, cada servicio puede ser ejecutado en su propio contenedor. Linkerd se encarga de manejar la comunicación entre estos servicios y asegurarse de que la comunicación sea confiable, segura y rápida.
+
+Algunas de las características de Linkerd incluyen:
+
+- Descubrimiento automático de servicios
+- Enrutamiento inteligente y balanceo de carga
+- Monitoreo de servicio y métricas de rendimiento
+- Control de tráfico y políticas de seguridad
+- Integración con Kubernetes y otros sistemas de orquestación de contenedores
+
+Linkerd se integra en la infraestructura existente de la aplicación y se ejecuta como un proxy de lado del cliente. Esto significa que puede ser utilizado con cualquier lenguaje de programación o marco de aplicación.
 
 ## Cloud Run
 Cloud Run es un servicio de Google Cloud que permite ejecutar contenedores Docker de forma serverless y escalable, lo que significa que los contenedores se ejecutan solo cuando hay una solicitud y se detienen automáticamente cuando la solicitud se completa.
