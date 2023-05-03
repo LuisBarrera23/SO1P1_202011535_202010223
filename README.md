@@ -54,6 +54,65 @@ npm install @grpc/grpc-js @grpc/proto-loader async google-protobuf lodash minimi
  ```
 
 
+# Redis
+Redis es una base de datos en memoria de tipo clave-valor, lo que significa que los datos se almacenan en la memoria principal del servidor y se acceden mediante claves que identifican a cada valor. Fue diseñada para ofrecer un alto rendimiento y escalabilidad en aplicaciones que requieren tiempos de respuesta muy bajos y una alta disponibilidad de datos.
+
+![Redis](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Logo-redis.svg/1200px-Logo-redis.svg.png)
+
+
+Para esta practica se utilizaron 2 claves que guardan los valores para el manejo de la informacion solicitada para reids la cuales son last_five y sede_counters, estas guardan los valores para la realizacion de los reportes de ultimos 5 votos y sedes con mas votos.
+
+![Redis](https://res.cloudinary.com/practicaldev/image/fetch/s--hJPITcIX--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/eykw6jit6f0dy40yeyii.jpeg)
+
+### Redis Pub/Sub
+Redis es conocido por su soporte de publicación/suscripción. El patrón de diseño de publicación/suscripción se utiliza para transmitir datos entre diferentes partes de una aplicación o entre diferentes aplicaciones. En Redis, este patrón se implementa mediante los comandos "PUBLISH" (publicar) y "SUBSCRIBE" (suscribir).
+
+El comando "PUBLISH" se utiliza para publicar mensajes en un canal (channel) específico. Los clientes que están suscritos a ese canal reciben los mensajes publicados. Por otro lado, el comando "SUBSCRIBE" se utiliza para suscribirse a uno o varios canales. Una vez suscrito, el cliente recibirá todos los mensajes publicados en los canales a los que está suscrito.
+
+Cabe mencionar que para tener redis pub/sub en go se debe instalar la siguiente libreria "github.com/gomodule/redigo/redis" la cual se instala ubicandose al mismo nivel de la carpeta donde esta nuestro archivo main.go y ejecutar el siguiente comando tanto para redisPub y redisSub:
+
+ ```
+go get github.com/gomodule/redigo/redis
+ ```
+
+# Frontend 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="arquitectura" width="200">
+
+Para el frontend fue utilizado React en la version node alpine creando el proyecto con el comando: 
+
+```
+creat-react-app myapp
+```
+
+Luego de crear el proyecto de React fue diseñada una pagina bastante sencilla de una intefaz de graficas mostrando los reportes solicitados sobre la informacion de todos los votos que se deben de manejar actualizando los reportes en tiempo real cada 1 segundo por medio de websocket.
+
+### WEBSOCKET
+<img src="https://karlboghossian.com/wp-content/uploads/2020/05/E66E1CEB-16F1-4E38-9BB4-C130323D37FB-scaled.jpeg" alt="arquitectura" width="400">
+
+WebSocket es un protocolo de comunicación bidireccional en tiempo real que permite la comunicación en tiempo real entre un cliente y un servidor a través de una conexión persistente. A diferencia del protocolo HTTP tradicional, que utiliza una conexión unidireccional para enviar solicitudes del cliente al servidor y recibir respuestas del servidor al cliente, WebSocket permite que el servidor envíe mensajes al cliente en cualquier momento sin necesidad de una solicitud previa del cliente.
+
+
+# API Nodejs
+
+Esta api fue realizada con un router y lo unico que hace es leer la informacion de las dos bases de datos tanto de MYSQL y REDIS y mandarla al frontend el cual despliega la informacion al usuario. Se usaron diferentes endpoint y cabe mencionar que tambien se debe realizar configuracion para recibir el websocket y poderlo conectar con el frontend en react.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="arquitectura" width="200">
+
+
+# Locust
+Locust es un framework de pruebas de carga de código abierto en Python. Se utiliza para simular cargas de trabajo de usuario en una aplicación web o API y para evaluar su capacidad de respuesta y rendimiento.
+<img src="https://warlord0blog.files.wordpress.com/2021/02/locust_logo.png?w=712" alt="arquitectura" width="400">
+
+Locust utiliza una sintaxis simple de Python para definir escenarios de prueba, lo que lo hace fácil de aprender y utilizar. Los escenarios de prueba se definen como clases de Python que definen el comportamiento de los usuarios en la aplicación web o API bajo prueba. Los usuarios se simulan mediante un objeto "locust" que envía solicitudes HTTP al servidor y analiza las respuestas para medir el tiempo de respuesta y otros parámetros de rendimiento. En este proyecto se carga un archivo llamado datos.json el cual se manda uno a uno por las dos rutas tanto de gRPC y Redis pub/sub y se utiliza para simular la llegada de votos de las distintas sedes que esten dando uso al sistema de votacion y reporte de resultados. El comando para ejecutar locust es:
+
+```
+locust -f <<archivo.py>>
+```
+
+
+
+
 # Kubernetes 
 
 Kubernetes es una plataforma de orquestación de contenedores de código abierto desarrollada por Google que se utiliza para automatizar y gestionar el despliegue, escala y gestión de aplicaciones en contenedores. Kubernetes ofrece un entorno para automatizar la implementación, el escalado y la gestión de aplicaciones en contenedores en múltiples nodos. Esto permite a los desarrolladores y administradores de sistemas implementar y administrar aplicaciones de manera eficiente y consistente en diferentes entornos, desde servidores locales hasta la nube pública.
