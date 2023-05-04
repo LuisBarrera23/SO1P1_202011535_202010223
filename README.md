@@ -211,7 +211,7 @@ CREATE TABLE Votos_data (
     partido VARCHAR(255) NOT NULL
 );
 ```
-### Ingress
+### Linkerd
 Linkerd es un servicio de malla de servicio o service mesh de código abierto diseñado para ayudar a los desarrolladores a manejar la complejidad de las aplicaciones en contenedores.
 
 En una arquitectura de microservicios, donde la funcionalidad de una aplicación se descompone en servicios más pequeños, cada servicio puede ser ejecutado en su propio contenedor. Linkerd se encarga de manejar la comunicación entre estos servicios y asegurarse de que la comunicación sea confiable, segura y rápida.
