@@ -1,294 +1,77 @@
 [
     {
-        "sede": 6,
-        "municipio": "San Andres Itzapa",
-        "departamento": "Chimaltenango",
-        "papeleta": "Verde",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 15,
-        "municipio": "Chisec",
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
         "departamento": "Alta Verapaz",
-        "papeleta": "Rosada",
-        "partido": "FCN"
-    },
-    {
-        "sede": 13,
-        "municipio": "Coban",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 10,
-        "municipio": "Siquinala",
-        "departamento": "Escuintla",
         "papeleta": "Rosada",
         "partido": "UNE"
-    },
-    {
-        "sede": 7,
-        "municipio": "San Francisco Zapotitlan",
-        "departamento": "Suchitepequez",
-        "papeleta": "Blanca",
-        "partido": "FCN"
-    },
-    {
-        "sede": 13,
-        "municipio": "Coban",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 13,
-        "municipio": "Coban",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "UNE"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
-        "papeleta": "Rosada",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 9,
-        "municipio": "San Antonio Suchitepequez",
-        "departamento": "Suchitepequez",
-        "papeleta": "Blanca",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 6,
-        "municipio": "San Andres Itzapa",
-        "departamento": "Chimaltenango",
-        "papeleta": "Rosada",
-        "partido": "UNE"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
-        "partido": "FCN"
-    },
-    {
-        "sede": 4,
-        "municipio": "Chimaltenango",
-        "departamento": "Chimaltenango",
-        "papeleta": "Verde",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 9,
-        "municipio": "San Antonio Suchitepequez",
-        "departamento": "Suchitepequez",
-        "papeleta": "Blanca",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 4,
-        "municipio": "Chimaltenango",
-        "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
-        "partido": "VAMOS"
     },
     {
         "sede": 12,
         "municipio": "Santa Lucia Cotzumalguapa",
         "departamento": "Escuintla",
-        "papeleta": "Verde",
-        "partido": "FCN"
-    },
-    {
-        "sede": 8,
-        "municipio": "Chicacao",
-        "departamento": "Suchitepequez",
-        "papeleta": "Rosada",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
-        "departamento": "Escuintla",
-        "papeleta": "Verde",
-        "partido": "FCN"
-    },
-    {
-        "sede": 6,
-        "municipio": "San Andres Itzapa",
-        "departamento": "Chimaltenango",
-        "papeleta": "Verde",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 8,
-        "municipio": "Chicacao",
-        "departamento": "Suchitepequez",
-        "papeleta": "Blanca",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
-        "papeleta": "Blanca",
-        "partido": "FCN"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
         "papeleta": "Rosada",
         "partido": "FCN"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
-        "papeleta": "Verde",
-        "partido": "UNE"
-    },
-    {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Rosada",
-        "partido": "VALOR"
     },
     {
         "sede": 3,
         "municipio": "Villa Nueva",
         "departamento": "Guatemala",
-        "papeleta": "Blanca",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 1,
-        "municipio": "Guatemala",
-        "departamento": "Guatemala",
-        "papeleta": "Rosada",
-        "partido": "UNE"
-    },
-    {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
-        "departamento": "Escuintla",
-        "papeleta": "Blanca",
-        "partido": "UNE"
-    },
-    {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
-        "departamento": "Escuintla",
-        "papeleta": "Blanca",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 6,
-        "municipio": "San Andres Itzapa",
-        "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
-        "partido": "FCN"
-    },
-    {
-        "sede": 8,
-        "municipio": "Chicacao",
-        "departamento": "Suchitepequez",
         "papeleta": "Verde",
         "partido": "FCN"
     },
     {
-        "sede": 1,
-        "municipio": "Guatemala",
-        "departamento": "Guatemala",
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
         "papeleta": "Rosada",
-        "partido": "FCN"
+        "partido": "UNIONISTA"
     },
     {
         "sede": 1,
         "municipio": "Guatemala",
         "departamento": "Guatemala",
-        "papeleta": "Blanca",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
         "partido": "VAMOS"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "UNE"
+    },
+    {
+        "sede": 12,
+        "municipio": "Santa Lucia Cotzumalguapa",
+        "departamento": "Escuintla",
+        "papeleta": "Rosada",
+        "partido": "UNE"
     },
     {
         "sede": 2,
         "municipio": "Mixco",
         "departamento": "Guatemala",
         "papeleta": "Blanca",
-        "partido": "VAMOS"
+        "partido": "VALOR"
     },
     {
         "sede": 2,
         "municipio": "Mixco",
         "departamento": "Guatemala",
-        "papeleta": "Rosada",
-        "partido": "UNE"
-    },
-    {
-        "sede": 3,
-        "municipio": "Villa Nueva",
-        "departamento": "Guatemala",
-        "papeleta": "Verde",
-        "partido": "UNE"
-    },
-    {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
-        "partido": "UNE"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
         "papeleta": "Blanca",
-        "partido": "VAMOS"
+        "partido": "VALOR"
     },
     {
-        "sede": 7,
-        "municipio": "San Francisco Zapotitlan",
-        "departamento": "Suchitepequez",
-        "papeleta": "Blanca",
-        "partido": "UNE"
-    },
-    {
-        "sede": 13,
-        "municipio": "Coban",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "UNE"
-    },
-    {
-        "sede": 3,
-        "municipio": "Villa Nueva",
-        "departamento": "Guatemala",
-        "papeleta": "Blanca",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 9,
-        "municipio": "San Antonio Suchitepequez",
-        "departamento": "Suchitepequez",
-        "papeleta": "Verde",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "UNE"
-    },
-    {
-        "sede": 4,
-        "municipio": "Chimaltenango",
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
         "departamento": "Chimaltenango",
         "papeleta": "Verde",
         "partido": "UNIONISTA"
@@ -305,77 +88,329 @@
         "municipio": "San Antonio Suchitepequez",
         "departamento": "Suchitepequez",
         "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
         "partido": "VAMOS"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "VALOR"
     },
     {
         "sede": 11,
         "municipio": "Tiquisate",
         "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
         "papeleta": "Rosada",
         "partido": "UNIONISTA"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Rosada",
+        "partido": "UNE"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "UNE"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Rosada",
+        "partido": "UNE"
     },
     {
         "sede": 3,
         "municipio": "Villa Nueva",
         "departamento": "Guatemala",
         "papeleta": "Rosada",
-        "partido": "FCN"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
-        "papeleta": "Blanca",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 4,
-        "municipio": "Chimaltenango",
-        "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
         "partido": "VALOR"
     },
     {
         "sede": 1,
         "municipio": "Guatemala",
         "departamento": "Guatemala",
-        "papeleta": "Rosada",
-        "partido": "UNE"
+        "papeleta": "Verde",
+        "partido": "FCN"
     },
     {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
-        "partido": "UNE"
-    },
-    {
-        "sede": 7,
-        "municipio": "San Francisco Zapotitlan",
-        "departamento": "Suchitepequez",
-        "papeleta": "Blanca",
-        "partido": "UNE"
-    },
-    {
-        "sede": 10,
-        "municipio": "Siquinala",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
         "partido": "UNIONISTA"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
-        "papeleta": "Rosada",
-        "partido": "VAMOS"
     },
     {
         "sede": 10,
         "municipio": "Siquinala",
         "departamento": "Escuintla",
         "papeleta": "Verde",
-        "partido": "UNIONISTA"
+        "partido": "VALOR"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "FCN"
     },
     {
         "sede": 13,
@@ -385,9 +420,58 @@
         "partido": "UNE"
     },
     {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Rosada",
+        "partido": "UNE"
+    },
+    {
         "sede": 5,
         "municipio": "El Tejar",
         "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
         "papeleta": "Verde",
         "partido": "VALOR"
     },
@@ -396,378 +480,112 @@
         "municipio": "Guatemala",
         "departamento": "Guatemala",
         "papeleta": "Blanca",
-        "partido": "FCN"
+        "partido": "UNIONISTA"
     },
     {
-        "sede": 4,
-        "municipio": "Chimaltenango",
-        "departamento": "Chimaltenango",
-        "papeleta": "Verde",
-        "partido": "VAMOS"
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
     },
     {
         "sede": 7,
         "municipio": "San Francisco Zapotitlan",
         "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 12,
+        "municipio": "Santa Lucia Cotzumalguapa",
+        "departamento": "Escuintla",
         "papeleta": "Rosada",
         "partido": "UNIONISTA"
     },
     {
-        "sede": 4,
-        "municipio": "Chimaltenango",
-        "departamento": "Chimaltenango",
-        "papeleta": "Rosada",
-        "partido": "UNE"
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
     },
     {
-        "sede": 11,
-        "municipio": "Tiquisate",
+        "sede": 12,
+        "municipio": "Santa Lucia Cotzumalguapa",
         "departamento": "Escuintla",
         "papeleta": "Rosada",
-        "partido": "VALOR"
+        "partido": "VAMOS"
     },
     {
         "sede": 11,
         "municipio": "Tiquisate",
         "departamento": "Escuintla",
         "papeleta": "Blanca",
-        "partido": "UNE"
+        "partido": "VAMOS"
     },
     {
         "sede": 2,
         "municipio": "Mixco",
         "departamento": "Guatemala",
         "papeleta": "Blanca",
-        "partido": "VAMOS"
+        "partido": "VALOR"
     },
     {
         "sede": 8,
         "municipio": "Chicacao",
         "departamento": "Suchitepequez",
-        "papeleta": "Verde",
-        "partido": "FCN"
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 13,
+        "municipio": "Coban",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
     },
     {
         "sede": 3,
         "municipio": "Villa Nueva",
         "departamento": "Guatemala",
-        "papeleta": "Verde",
-        "partido": "UNE"
-    },
-    {
-        "sede": 6,
-        "municipio": "San Andres Itzapa",
-        "departamento": "Chimaltenango",
-        "papeleta": "Verde",
+        "papeleta": "Blanca",
         "partido": "UNIONISTA"
     },
     {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 2,
-        "municipio": "Mixco",
-        "departamento": "Guatemala",
-        "papeleta": "Verde",
-        "partido": "FCN"
-    },
-    {
-        "sede": 2,
-        "municipio": "Mixco",
-        "departamento": "Guatemala",
-        "papeleta": "Blanca",
-        "partido": "FCN"
-    },
-    {
-        "sede": 1,
-        "municipio": "Guatemala",
-        "departamento": "Guatemala",
-        "papeleta": "Verde",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 2,
-        "municipio": "Mixco",
-        "departamento": "Guatemala",
+        "sede": 13,
+        "municipio": "Coban",
+        "departamento": "Alta Verapaz",
         "papeleta": "Rosada",
         "partido": "UNIONISTA"
     },
     {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Blanca",
-        "partido": "FCN"
-    },
-    {
-        "sede": 8,
-        "municipio": "Chicacao",
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
         "departamento": "Suchitepequez",
         "papeleta": "Verde",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 2,
-        "municipio": "Mixco",
-        "departamento": "Guatemala",
-        "papeleta": "Rosada",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 14,
-        "municipio": "San Pedro Carcha",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 10,
-        "municipio": "Siquinala",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
         "partido": "UNE"
-    },
-    {
-        "sede": 10,
-        "municipio": "Siquinala",
-        "departamento": "Escuintla",
-        "papeleta": "Verde",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
-        "partido": "UNE"
-    },
-    {
-        "sede": 2,
-        "municipio": "Mixco",
-        "departamento": "Guatemala",
-        "papeleta": "Rosada",
-        "partido": "UNE"
-    },
-    {
-        "sede": 14,
-        "municipio": "San Pedro Carcha",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Rosada",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 6,
-        "municipio": "San Andres Itzapa",
-        "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 8,
-        "municipio": "Chicacao",
-        "departamento": "Suchitepequez",
-        "papeleta": "Verde",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
-        "papeleta": "Verde",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 2,
-        "municipio": "Mixco",
-        "departamento": "Guatemala",
-        "papeleta": "Verde",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 1,
-        "municipio": "Guatemala",
-        "departamento": "Guatemala",
-        "papeleta": "Blanca",
-        "partido": "FCN"
-    },
-    {
-        "sede": 14,
-        "municipio": "San Pedro Carcha",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Rosada",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 14,
-        "municipio": "San Pedro Carcha",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 6,
-        "municipio": "San Andres Itzapa",
-        "departamento": "Chimaltenango",
-        "papeleta": "Verde",
-        "partido": "FCN"
-    },
-    {
-        "sede": 6,
-        "municipio": "San Andres Itzapa",
-        "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 2,
-        "municipio": "Mixco",
-        "departamento": "Guatemala",
-        "papeleta": "Blanca",
-        "partido": "FCN"
-    },
-    {
-        "sede": 2,
-        "municipio": "Mixco",
-        "departamento": "Guatemala",
-        "papeleta": "Blanca",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 13,
-        "municipio": "Coban",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Rosada",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 13,
-        "municipio": "Coban",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Blanca",
-        "partido": "FCN"
-    },
-    {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 1,
-        "municipio": "Guatemala",
-        "departamento": "Guatemala",
-        "papeleta": "Blanca",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 14,
-        "municipio": "San Pedro Carcha",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Rosada",
-        "partido": "UNE"
-    },
-    {
-        "sede": 1,
-        "municipio": "Guatemala",
-        "departamento": "Guatemala",
-        "papeleta": "Rosada",
-        "partido": "FCN"
-    },
-    {
-        "sede": 10,
-        "municipio": "Siquinala",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 14,
-        "municipio": "San Pedro Carcha",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "FCN"
-    },
-    {
-        "sede": 1,
-        "municipio": "Guatemala",
-        "departamento": "Guatemala",
-        "papeleta": "Verde",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 4,
-        "municipio": "Chimaltenango",
-        "departamento": "Chimaltenango",
-        "papeleta": "Rosada",
-        "partido": "FCN"
-    },
-    {
-        "sede": 4,
-        "municipio": "Chimaltenango",
-        "departamento": "Chimaltenango",
-        "papeleta": "Rosada",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Blanca",
-        "partido": "UNE"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
-        "papeleta": "Rosada",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
-        "papeleta": "Rosada",
-        "partido": "FCN"
-    },
-    {
-        "sede": 13,
-        "municipio": "Coban",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Rosada",
-        "partido": "UNIONISTA"
     },
     {
         "sede": 7,
         "municipio": "San Francisco Zapotitlan",
         "departamento": "Suchitepequez",
-        "papeleta": "Rosada",
-        "partido": "FCN"
+        "papeleta": "Blanca",
+        "partido": "VALOR"
     },
     {
         "sede": 3,
@@ -777,121 +595,156 @@
         "partido": "FCN"
     },
     {
+        "sede": 13,
+        "municipio": "Coban",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
         "sede": 7,
         "municipio": "San Francisco Zapotitlan",
         "departamento": "Suchitepequez",
         "papeleta": "Verde",
-        "partido": "UNE"
-    },
-    {
-        "sede": 13,
-        "municipio": "Coban",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Blanca",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
-        "papeleta": "Rosada",
-        "partido": "FCN"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
-        "partido": "VAMOS"
+        "partido": "UNIONISTA"
     },
     {
         "sede": 8,
         "municipio": "Chicacao",
         "departamento": "Suchitepequez",
-        "papeleta": "Blanca",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 3,
+        "municipio": "Villa Nueva",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
         "partido": "UNIONISTA"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Rosada",
+        "partido": "UNE"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
     },
     {
         "sede": 6,
         "municipio": "San Andres Itzapa",
         "departamento": "Chimaltenango",
-        "papeleta": "Verde",
-        "partido": "UNE"
-    },
-    {
-        "sede": 14,
-        "municipio": "San Pedro Carcha",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Blanca",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
-        "departamento": "Escuintla",
-        "papeleta": "Blanca",
-        "partido": "UNE"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
-        "papeleta": "Blanca",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 2,
-        "municipio": "Mixco",
-        "departamento": "Guatemala",
-        "papeleta": "Rosada",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 8,
-        "municipio": "Chicacao",
-        "departamento": "Suchitepequez",
         "papeleta": "Blanca",
         "partido": "FCN"
     },
     {
-        "sede": 6,
-        "municipio": "San Andres Itzapa",
-        "departamento": "Chimaltenango",
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
         "papeleta": "Rosada",
-        "partido": "UNE"
-    },
-    {
-        "sede": 4,
-        "municipio": "Chimaltenango",
-        "departamento": "Chimaltenango",
-        "papeleta": "Verde",
-        "partido": "VAMOS"
+        "partido": "FCN"
     },
     {
         "sede": 13,
         "municipio": "Coban",
         "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "UNE"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
-        "papeleta": "Blanca",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 14,
-        "municipio": "San Pedro Carcha",
-        "departamento": "Alta Verapaz",
         "papeleta": "Rosada",
-        "partido": "VAMOS"
+        "partido": "VALOR"
     },
     {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
-        "departamento": "Escuintla",
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
         "papeleta": "Verde",
         "partido": "UNE"
     },
@@ -899,42 +752,56 @@
         "sede": 8,
         "municipio": "Chicacao",
         "departamento": "Suchitepequez",
-        "papeleta": "Blanca",
-        "partido": "UNE"
-    },
-    {
-        "sede": 14,
-        "municipio": "San Pedro Carcha",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Blanca",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
-        "partido": "FCN"
-    },
-    {
-        "sede": 14,
-        "municipio": "San Pedro Carcha",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Blanca",
-        "partido": "UNE"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
         "papeleta": "Verde",
-        "partido": "FCN"
+        "partido": "UNE"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "UNIONISTA"
     },
     {
         "sede": 13,
         "municipio": "Coban",
         "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "UNE"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
         "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Rosada",
+        "partido": "FCN"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
         "partido": "VAMOS"
     },
     {
@@ -942,56 +809,126 @@
         "municipio": "Mixco",
         "departamento": "Guatemala",
         "papeleta": "Verde",
-        "partido": "UNE"
-    },
-    {
-        "sede": 4,
-        "municipio": "Chimaltenango",
-        "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 2,
-        "municipio": "Mixco",
-        "departamento": "Guatemala",
-        "papeleta": "Verde",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 4,
-        "municipio": "Chimaltenango",
-        "departamento": "Chimaltenango",
-        "papeleta": "Verde",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
-        "papeleta": "Verde",
-        "partido": "UNE"
+        "partido": "FCN"
     },
     {
         "sede": 1,
         "municipio": "Guatemala",
         "departamento": "Guatemala",
         "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
         "partido": "UNIONISTA"
     },
     {
-        "sede": 5,
-        "municipio": "El Tejar",
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
         "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 13,
+        "municipio": "Coban",
+        "departamento": "Alta Verapaz",
         "papeleta": "Rosada",
-        "partido": "UNIONISTA"
+        "partido": "VALOR"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Rosada",
+        "partido": "UNE"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 12,
+        "municipio": "Santa Lucia Cotzumalguapa",
+        "departamento": "Escuintla",
+        "papeleta": "Rosada",
+        "partido": "UNE"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
     },
     {
         "sede": 4,
@@ -1001,11 +938,46 @@
         "partido": "VALOR"
     },
     {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
         "sede": 12,
         "municipio": "Santa Lucia Cotzumalguapa",
         "departamento": "Escuintla",
-        "papeleta": "Verde",
+        "papeleta": "Blanca",
         "partido": "VALOR"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
     },
     {
         "sede": 10,
@@ -1015,36 +987,134 @@
         "partido": "VAMOS"
     },
     {
-        "sede": 4,
-        "municipio": "Chimaltenango",
-        "departamento": "Chimaltenango",
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
         "papeleta": "Verde",
         "partido": "UNE"
     },
     {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
-        "departamento": "Escuintla",
-        "papeleta": "Blanca",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 13,
-        "municipio": "Coban",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Blanca",
-        "partido": "FCN"
-    },
-    {
-        "sede": 13,
-        "municipio": "Coban",
+        "sede": 15,
+        "municipio": "Chisec",
         "departamento": "Alta Verapaz",
         "papeleta": "Verde",
         "partido": "UNIONISTA"
     },
     {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
+        "sede": 3,
+        "municipio": "Villa Nueva",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "FCN"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Rosada",
+        "partido": "FCN"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
         "departamento": "Escuintla",
         "papeleta": "Blanca",
         "partido": "FCN"
@@ -1053,6 +1123,20 @@
         "sede": 6,
         "municipio": "San Andres Itzapa",
         "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
         "papeleta": "Blanca",
         "partido": "UNE"
     },
@@ -1064,6 +1148,83 @@
         "partido": "FCN"
     },
     {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 13,
+        "municipio": "Coban",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 12,
+        "municipio": "Santa Lucia Cotzumalguapa",
+        "departamento": "Escuintla",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
         "sede": 10,
         "municipio": "Siquinala",
         "departamento": "Escuintla",
@@ -1071,86 +1232,72 @@
         "partido": "VALOR"
     },
     {
-        "sede": 4,
-        "municipio": "Chimaltenango",
+        "sede": 5,
+        "municipio": "El Tejar",
         "departamento": "Chimaltenango",
-        "papeleta": "Rosada",
+        "papeleta": "Verde",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
         "partido": "UNE"
     },
     {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Verde",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 7,
-        "municipio": "San Francisco Zapotitlan",
-        "departamento": "Suchitepequez",
-        "papeleta": "Verde",
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
         "partido": "FCN"
     },
     {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
         "papeleta": "Verde",
-        "partido": "UNIONISTA"
+        "partido": "VALOR"
     },
     {
         "sede": 10,
         "municipio": "Siquinala",
         "departamento": "Escuintla",
         "papeleta": "Rosada",
-        "partido": "FCN"
+        "partido": "UNIONISTA"
     },
     {
-        "sede": 6,
-        "municipio": "San Andres Itzapa",
+        "sede": 5,
+        "municipio": "El Tejar",
         "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
+        "papeleta": "Verde",
         "partido": "VAMOS"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "FCN"
     },
     {
         "sede": 12,
         "municipio": "Santa Lucia Cotzumalguapa",
         "departamento": "Escuintla",
-        "papeleta": "Blanca",
-        "partido": "FCN"
-    },
-    {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Rosada",
-        "partido": "UNE"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
-        "partido": "UNE"
-    },
-    {
-        "sede": 10,
-        "municipio": "Siquinala",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 4,
-        "municipio": "Chimaltenango",
-        "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
         "papeleta": "Rosada",
         "partido": "FCN"
     },
@@ -1158,7 +1305,63 @@
         "sede": 9,
         "municipio": "San Antonio Suchitepequez",
         "departamento": "Suchitepequez",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
         "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "UNE"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
         "partido": "VAMOS"
     },
     {
@@ -1166,56 +1369,287 @@
         "municipio": "San Francisco Zapotitlan",
         "departamento": "Suchitepequez",
         "papeleta": "Blanca",
-        "partido": "UNE"
+        "partido": "FCN"
     },
     {
-        "sede": 5,
-        "municipio": "El Tejar",
+        "sede": 3,
+        "municipio": "Villa Nueva",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
         "departamento": "Chimaltenango",
         "papeleta": "Verde",
-        "partido": "UNE"
+        "partido": "FCN"
     },
     {
-        "sede": 6,
-        "municipio": "San Andres Itzapa",
-        "departamento": "Chimaltenango",
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
         "papeleta": "Rosada",
         "partido": "FCN"
     },
     {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
-        "partido": "UNE"
-    },
-    {
-        "sede": 10,
-        "municipio": "Siquinala",
-        "departamento": "Escuintla",
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
         "papeleta": "Verde",
         "partido": "FCN"
+    },
+    {
+        "sede": 3,
+        "municipio": "Villa Nueva",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
     },
     {
         "sede": 9,
         "municipio": "San Antonio Suchitepequez",
         "departamento": "Suchitepequez",
-        "papeleta": "Rosada",
-        "partido": "VAMOS"
+        "papeleta": "Blanca",
+        "partido": "UNE"
     },
     {
         "sede": 11,
         "municipio": "Tiquisate",
         "departamento": "Escuintla",
         "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
         "partido": "FCN"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 3,
+        "municipio": "Villa Nueva",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
     },
     {
         "sede": 4,
         "municipio": "Chimaltenango",
         "departamento": "Chimaltenango",
         "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 3,
+        "municipio": "Villa Nueva",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
         "partido": "FCN"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 3,
+        "municipio": "Villa Nueva",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 3,
+        "municipio": "Villa Nueva",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 13,
+        "municipio": "Coban",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "FCN"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Rosada",
+        "partido": "FCN"
+    },
+    {
+        "sede": 3,
+        "municipio": "Villa Nueva",
+        "departamento": "Guatemala",
+        "papeleta": "Rosada",
+        "partido": "UNE"
+    },
+    {
+        "sede": 13,
+        "municipio": "Coban",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 13,
+        "municipio": "Coban",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "UNIONISTA"
     },
     {
         "sede": 1,
@@ -1225,74 +1659,67 @@
         "partido": "FCN"
     },
     {
-        "sede": 7,
-        "municipio": "San Francisco Zapotitlan",
+        "sede": 8,
+        "municipio": "Chicacao",
         "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
         "papeleta": "Rosada",
         "partido": "VALOR"
     },
     {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Rosada",
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
         "partido": "FCN"
     },
     {
         "sede": 6,
         "municipio": "San Andres Itzapa",
         "departamento": "Chimaltenango",
-        "papeleta": "Blanca",
-        "partido": "FCN"
-    },
-    {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
-        "departamento": "Escuintla",
-        "papeleta": "Verde",
-        "partido": "FCN"
-    },
-    {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Blanca",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
-        "papeleta": "Rosada",
-        "partido": "FCN"
-    },
-    {
-        "sede": 8,
-        "municipio": "Chicacao",
-        "departamento": "Suchitepequez",
-        "papeleta": "Rosada",
-        "partido": "FCN"
-    },
-    {
-        "sede": 10,
-        "municipio": "Siquinala",
-        "departamento": "Escuintla",
-        "papeleta": "Blanca",
-        "partido": "UNE"
-    },
-    {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
-        "departamento": "Escuintla",
-        "papeleta": "Verde",
-        "partido": "UNE"
-    },
-    {
-        "sede": 5,
-        "municipio": "El Tejar",
-        "departamento": "Chimaltenango",
         "papeleta": "Rosada",
         "partido": "UNIONISTA"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "FCN"
     },
     {
         "sede": 13,
@@ -1302,24 +1729,24 @@
         "partido": "UNIONISTA"
     },
     {
-        "sede": 9,
-        "municipio": "San Antonio Suchitepequez",
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
         "departamento": "Suchitepequez",
-        "papeleta": "Rosada",
-        "partido": "VALOR"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
-        "partido": "VAMOS"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
         "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 8,
+        "municipio": "Chicacao",
+        "departamento": "Suchitepequez",
+        "papeleta": "Verde",
         "partido": "VAMOS"
     },
     {
@@ -1327,6 +1754,125 @@
         "municipio": "Siquinala",
         "departamento": "Escuintla",
         "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 12,
+        "municipio": "Santa Lucia Cotzumalguapa",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 1,
+        "municipio": "Guatemala",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 11,
+        "municipio": "Tiquisate",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 13,
+        "municipio": "Coban",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 13,
+        "municipio": "Coban",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 12,
+        "municipio": "Santa Lucia Cotzumalguapa",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
         "partido": "VAMOS"
     },
     {
@@ -1337,66 +1883,220 @@
         "partido": "UNE"
     },
     {
-        "sede": 7,
-        "municipio": "San Francisco Zapotitlan",
-        "departamento": "Suchitepequez",
-        "papeleta": "Verde",
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
         "partido": "UNE"
     },
     {
         "sede": 9,
         "municipio": "San Antonio Suchitepequez",
         "departamento": "Suchitepequez",
-        "papeleta": "Verde",
+        "papeleta": "Rosada",
         "partido": "FCN"
     },
     {
-        "sede": 15,
-        "municipio": "Chisec",
-        "departamento": "Alta Verapaz",
+        "sede": 12,
+        "municipio": "Santa Lucia Cotzumalguapa",
+        "departamento": "Escuintla",
+        "papeleta": "Rosada",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
         "papeleta": "Blanca",
         "partido": "FCN"
     },
     {
-        "sede": 9,
-        "municipio": "San Antonio Suchitepequez",
+        "sede": 8,
+        "municipio": "Chicacao",
         "departamento": "Suchitepequez",
-        "papeleta": "Verde",
-        "partido": "UNIONISTA"
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
     },
     {
         "sede": 15,
         "municipio": "Chisec",
         "departamento": "Alta Verapaz",
-        "papeleta": "Blanca",
-        "partido": "UNE"
-    },
-    {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
-        "partido": "FCN"
-    },
-    {
-        "sede": 11,
-        "municipio": "Tiquisate",
-        "departamento": "Escuintla",
         "papeleta": "Verde",
-        "partido": "UNIONISTA"
-    },
-    {
-        "sede": 12,
-        "municipio": "Santa Lucia Cotzumalguapa",
-        "departamento": "Escuintla",
-        "papeleta": "Rosada",
-        "partido": "UNE"
+        "partido": "FCN"
     },
     {
         "sede": 7,
         "municipio": "San Francisco Zapotitlan",
         "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 6,
+        "municipio": "San Andres Itzapa",
+        "departamento": "Chimaltenango",
+        "papeleta": "Blanca",
+        "partido": "UNE"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "UNIONISTA"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 12,
+        "municipio": "Santa Lucia Cotzumalguapa",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 13,
+        "municipio": "Coban",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 7,
+        "municipio": "San Francisco Zapotitlan",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 2,
+        "municipio": "Mixco",
+        "departamento": "Guatemala",
+        "papeleta": "Verde",
+        "partido": "UNE"
+    },
+    {
+        "sede": 10,
+        "municipio": "Siquinala",
+        "departamento": "Escuintla",
+        "papeleta": "Blanca",
+        "partido": "VALOR"
+    },
+    {
+        "sede": 15,
+        "municipio": "Chisec",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Blanca",
+        "partido": "VAMOS"
+    },
+    {
+        "sede": 9,
+        "municipio": "San Antonio Suchitepequez",
+        "departamento": "Suchitepequez",
+        "papeleta": "Blanca",
+        "partido": "FCN"
+    },
+    {
+        "sede": 5,
+        "municipio": "El Tejar",
+        "departamento": "Chimaltenango",
+        "papeleta": "Verde",
+        "partido": "FCN"
+    },
+    {
+        "sede": 4,
+        "municipio": "Chimaltenango",
+        "departamento": "Chimaltenango",
         "papeleta": "Verde",
         "partido": "VALOR"
+    },
+    {
+        "sede": 14,
+        "municipio": "San Pedro Carcha",
+        "departamento": "Alta Verapaz",
+        "papeleta": "Rosada",
+        "partido": "FCN"
     }
 ]
